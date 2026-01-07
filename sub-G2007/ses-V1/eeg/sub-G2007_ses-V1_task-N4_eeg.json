@@ -1,0 +1,12 @@
+{
+    "TaskName": "N4",
+    "Manufacturer": "Neuroscan",
+    "PowerLineFrequency": 60,
+    "SamplingFrequency": 1000.0,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 589.879,
+    "RecordingType": "continuous",
+    "EEGReference": "Mastoide derecha",
+    "EEGGround": "n/a",
+    "EEGPlacementScheme": "based on the extended 10/20 system"
+}
