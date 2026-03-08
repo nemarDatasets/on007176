@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007176-blue)](https://doi.org/10.82901/nemar.on007176)
+
 Longitudinal EEG Test-Retest Reliability in Healthy Individuals
 ================================================================
 
