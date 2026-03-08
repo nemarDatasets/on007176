@@ -71,17 +71,14 @@
     ".vmrk",
     ".yml"
   ],
-  "description": "This longitudinal dataset comprises resting-state EEG recordings from 43 healthy adults collected across four sessions over approximately two years (mean interval 7.2 months). The dataset was designed to assess test-retest reliability of EEG measures using automated preprocessing including independent component analysis and wavelet-enhanced artifact removal, enabling analysis of neural components, regional power distributions, and longitudinal stability of quantitative EEG metrics.",
-  "methods_description": "Resting-state EEG recordings were collected from healthy adult participants across four longitudinal sessions spanning approximately two years with an average interval of 7.2 months between sessions. Data were processed using an automated preprocessing pipeline incorporating independent component analysis and wavelet-enhanced artifact removal. EEG data are provided in BIDS-compliant format with raw signals and associated metadata describing recording parameters.",
+  "description": "This longitudinal dataset comprises resting-state EEG recordings from 43 healthy adults collected across four sessions over approximately two years (mean inter-session interval: 7.2 months). The dataset was designed to evaluate the test-retest reliability of quantitative EEG measures using automated preprocessing methods including independent component analysis and wavelet-enhanced artifact removal, enabling assessment of neural component stability and regional power dynamics over time.",
+  "methods_description": "EEG data were collected during resting-state sessions from 43 healthy participants across four longitudinal timepoints spanning approximately two years. Raw EEG signals were recorded in BIDS-compliant format (.eeg, .vhdr, .vmrk files) with associated metadata. Data processing employed an automated preprocessing pipeline incorporating independent component analysis and wavelet-enhanced artifact removal techniques.",
   "keywords": [
     {
       "term": "EEG"
     },
     {
       "term": "test-retest reliability"
-    },
-    {
-      "term": "reliability"
     },
     {
       "term": "longitudinal study"
@@ -96,19 +93,16 @@
       "term": "artifact removal"
     },
     {
-      "term": "wavelet"
-    },
-    {
       "term": "quantitative EEG"
     },
     {
-      "term": "healthy adults"
+      "term": "healthy controls"
     },
     {
-      "term": "BIDS"
+      "term": "reproducibility"
     },
     {
-      "term": "automated preprocessing"
+      "term": "wavelet"
     }
   ],
   "source_hash": "b5ea25265d9d943550a685669f46cb6c44adac825ea63128cec4816d4b23f0f3"
