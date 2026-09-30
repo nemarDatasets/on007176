@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Longitudinal EEG Test-Retest Reliability in Healthy Individuals",
+  "description": "This dataset contains longitudinal resting-state EEG recordings from 43 healthy adults across four sessions spanning about two years, with an average inter-session interval of 7.2 months. It was collected to evaluate the test-retest reliability of EEG measures processed with an automated pipeline combining independent component analysis and wavelet-enhanced artifact removal. The data support analyses of neural components, relative power in regions of interest, and the longitudinal stability of quantitative EEG.",
+  "methods_description": "Resting-state EEG was recorded from healthy adults in four sessions over approximately two years. Raw data are organized in BIDS format (BrainVision .eeg/.vhdr/.vmrk files). The associated analysis used an automated preprocessing pipeline with independent component analysis and wavelet-enhanced artifact removal.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,6 +21,29 @@
     "Carlos Andrés Tobón Quintero": {},
     "John Fredy Ochoa Gómez": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "test-retest reliability"
+    },
+    {
+      "term": "longitudinal study"
+    },
+    {
+      "term": "quantitative EEG"
+    },
+    {
+      "term": "artifact removal"
+    },
+    {
+      "term": "healthy adults"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007176.v1.0.1",
@@ -28,7 +53,7 @@
     {
       "identifier": "10.1016/j.bspc.2026.109484",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on007176",
@@ -36,31 +61,23 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007176",
+      "identifier": "https://nemar.org/dataset/on007176",
       "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1016/j.bspc.2024.109484",
-      "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
       "funder_name": "Comité para el Desarrollo de la Investigación - CODI, Universidad de Antioquia"
-    },
-    {
-      "funder_name": "Comité para el Desarrollo de la Investigación (CODI), Universidad de Antioquia"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "22.6 GB (901 files)"
+    "21.06 GB (901 files)"
   ],
   "formats": [
     ".eeg",
@@ -70,46 +87,6 @@
     ".vhdr",
     ".vmrk",
     ".yml"
-  ],
-  "description": "This longitudinal dataset comprises resting-state EEG recordings from 43 healthy adults collected across four sessions over approximately two years (mean interval 7.2 months). The dataset was designed to assess test-retest reliability of quantitative EEG measures using automated preprocessing including independent component analysis and wavelet-enhanced artifact removal, enabling investigation of neural component stability and regional power dynamics.",
-  "methods_description": "Resting-state EEG recordings were collected from 43 healthy participants across four longitudinal sessions spanning approximately two years with an average interval of 7.2 months between sessions. Data were processed using an automated preprocessing pipeline incorporating independent component analysis and wavelet-enhanced artifact removal. EEG data are provided in BIDS-compliant format with raw signals and associated metadata describing recording parameters.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "test-retest reliability"
-    },
-    {
-      "term": "reproducibility"
-    },
-    {
-      "term": "longitudinal study"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "independent component analysis"
-    },
-    {
-      "term": "artifact removal"
-    },
-    {
-      "term": "quantitative EEG"
-    },
-    {
-      "term": "healthy controls"
-    },
-    {
-      "term": "preprocessing"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "reliability"
-    }
   ],
   "source_hash": "b5ea25265d9d943550a685669f46cb6c44adac825ea63128cec4816d4b23f0f3"
 }
